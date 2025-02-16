@@ -2,7 +2,7 @@
   "name": "@vktickets/shared",
   "version": "1.0.3",
   "main": "./build/index.js",
-  "type": "module",
+  "type": "./build/index.d.ts",
   "files": [
     "build/**/*"
   ],
@@ -17,11 +17,11 @@
   "description": "",
   "devDependencies": {
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@types/express": "^5.0.0"
   },
   "dependencies": {
     "@types/cookie-session": "^2.0.49",
-    "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.8",
     "cookie-session": "^2.1.0",
     "express": "^4.21.2",
