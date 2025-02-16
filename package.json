@@ -1,6 +1,6 @@
 {
   "name": "@vktickets/shared",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "type": "module",
   "files": [
@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "clean": "rimraf ./build",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m 'Updates' && npm version patch && npm run build && npm publish --access public"
   },
   "keywords": [],
   "author": "",
