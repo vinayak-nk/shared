@@ -10,5 +10,5 @@
 
 1. tsc --int
 2. npm install typescript rimraf --save-dev
-
-express @types/express express-validator cookie-session @types/cookie-session jsonwebtoken @types/jsonwebtoken
+3. express @types/express express-validator cookie-session @types/cookie-session jsonwebtoken @types/jsonwebtoken
+4. npm i node-nats-streaming
