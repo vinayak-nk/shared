@@ -5,7 +5,7 @@ import { OrderStatus } from "./types/order-status";
 export interface OrderCreatedEvent {
   subject: Subjects.OrderCreated
   data: {
-    status: OrderStatus.Created;
+    status: OrderStatus;
     id: string; // OrderId
     userId: string;
     expiresdAt: string;
